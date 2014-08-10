@@ -6,7 +6,7 @@ module RegexpM17N
     else
       r = Regexp.new('^.+$'.encode(str.encoding.name))
     end
-    
+
     str =~ r
   end
 end
